@@ -21,12 +21,12 @@ echo "$text";
 
 <span> Il paragrafo è lungo: </span>
 <?php 
-echo strlen ("$text");
+echo strlen ($text);
 ?>
 
 <span> Il paragrafo con la parola nascosta è il seguente: </span>
 <?php 
-$text = str_ireplace("$bad_word", "***", "$text");
+$text = str_ireplace($bad_word, "***", $text);
 echo "$text";
 ?>
 
